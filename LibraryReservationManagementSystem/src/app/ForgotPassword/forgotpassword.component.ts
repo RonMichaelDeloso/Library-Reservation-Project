@@ -5,13 +5,13 @@ import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-login',
+  selector: 'app-forgotpassword',
   standalone: true,
   imports:[CommonModule, ReactiveFormsModule, RouterLink],
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss']
+  templateUrl: './forgotpassword.component.html',
+  styleUrls: ['./forgotpassword.component.scss']
 })
-export class LoginComponent {
+export class ForgotpasswordComponent {
 
   loginForm: FormGroup;
   message: string = '';
